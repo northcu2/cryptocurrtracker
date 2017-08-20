@@ -17,8 +17,6 @@ public class CurrencyContainer {
     private long last_updated;
 
 
-
-
     public String getId() {
         return id;
     }
@@ -66,7 +64,6 @@ public class CurrencyContainer {
     public void setPrice_btc(float price_btc) {
         this.price_btc = price_btc;
     }
-
 
 
     public float getMarket_cap_usd() {
